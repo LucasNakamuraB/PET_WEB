@@ -1,0 +1,73 @@
+*{
+    font-family: "Sanchez",Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.sanchez-regular {
+  font-family: "Sanchez", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sanchez-regular-italic {
+  font-family: "Sanchez", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+.gravitas-one-regular {
+  font-family: "Gravitas One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    width: 100%;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    align-items: center;
+    padding: 8px;
+    color: ivory;
+    background-color:peru;
+}
+.ph-coffee-bean{
+    font-size: 40px;
+    
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+
+
+    
+}
+header h1{
+    font-family: "Gravitas One", sans-serif;
+    font-weight: 100;
+    text-align: center;
+    font-size: 40px;
+}
+#logo-centro{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.redes-sociais ul{
+    display: flex;
+    flex-direction: row-reverse ;
+
+}
+.redes-sociais ul li{
+    display: flex;
+    flex-direction: row-reverse ;
+    list-style: none;
+    font-size: 40px;
+    color: ivory;
+}
