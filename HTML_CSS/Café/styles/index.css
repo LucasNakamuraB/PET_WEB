@@ -5,6 +5,7 @@
     box-sizing: border-box;
 
 }
+
 .sanchez-regular {
   font-family: "Sanchez", serif;
   font-weight: 400;
@@ -35,6 +36,20 @@ header {
     padding: 8px;
     color: ivory;
     background-color:peru;
+
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content:stretch;
+    color: ivory;
+    background-color: peru;
+}
+#logo-foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 30px;
 }
 .ph-coffee-bean{
     font-size: 40px;
@@ -44,10 +59,12 @@ nav ul{
     display: flex;
     list-style-type: none;
     gap: 40px;
-
-
-    
 }
+footer h2{
+    font-family: "Gravitas One";
+    font-weight: 100;
+} 
+
 header h1{
     font-family: "Gravitas One", sans-serif;
     font-weight: 100;
